@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <div class="valores">
+        <input type="text" placeholder="Primeiro Valor" id="n1">
+        <input type="text" placeholder="Segundo Valor" id="n2">
+    </div>
+
+    <br><br><br>
+
+    <div class="operacoes">
+        <input type="button" onclick="soma()" value="+">&nbsp;&nbsp;
+        <input type="button" onclick="subtrai()" value="-">&nbsp;&nbsp;
+        <input type="button" onclick="multiplica()" value="x">&nbsp;&nbsp;
+        <input type="button" onclick="divide()" value="÷">
+    </div>
+    
+    <br>
+    </div>
+    <h1 id="resultado"></h1>
+    <div class="rodape">
+        <p>Desenvolvido por: João Targino</p>
+        <div class="redes">
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
